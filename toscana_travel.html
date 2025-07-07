@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>토스카나 여행 일정</title>
+    <style>
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3e9;
+            color: #2c3e50;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .day-card {
+            background: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .day-header {
+            background: #8b0000;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.5em;
+        }
+
+        .day-content {
+            padding: 25px;
+        }
+
+        .schedule-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #8b0000;
+        }
+
+        .time {
+            color: #8b0000;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .activity {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .highlight h4 {
+            color: #8b0000;
+            margin: 0 0 10px 0;
+        }
+
+        .tips {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .tips h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .tips ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>토스카나 여행</h1>
+        <div class="subtitle">예술과 와인, 역사가 숨쉬는 이탈리아의 낭만</div>
+    </header>
+
+    <div class="container">
+        <div class="day-card">
+            <div class="day-header">Day 1 - 피렌체</div>
+            <div class="day-content">
+                <div class="schedule-item">
+                    <div class="time">09:00</div>
+                    <div class="activity">
+                        <strong>우피치 미술관</strong> 방문<br>
+                        보티첼리의 '비너스의 탄생', 레오나르도 다빈치의 작품 감상
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">12:30</div>
+                    <div class="activity">
+                        <strong>메르카토 센트랄레</strong>에서 현지 점심<br>
+                        토스카나 전통 음식과 와인 시식
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">15:00</div>
+                    <div class="activity">
+                        <strong>두오모</strong> 방문<br>
+                        브루넬레스키의 돔 등반 및 전망 감상
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">18:00</div>
+                    <div class="activity">
+                        <strong>폰테 베키오</strong> 일몰 감상<br>
+                        아르노 강변 산책
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h4>추천 레스토랑</h4>
+                    La Giostra - 로맨틱한 분위기의 토스카나 전통 레스토랑
+                </div>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">Day 2 - 시에나</div>
+            <div class="day-content">
+                <div class="schedule-item">
+                    <div class="time">10:00</div>
+                    <div class="activity">
+                        <strong>피아차 델 캄포</strong> 탐방<br>
+                        유네스코 세계문화유산 중세 광장 관람
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">12:00</div>
+                    <div class="activity">
+                        <strong>시에나 두오모</strong> 방문<br>
+                        고딕 양식의 대성당 내부 관람
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">15:00</div>
+                    <div class="activity">
+                        <strong>중세 골목길</strong> 산책<br>
+                        현지 숍과 카페 방문
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h4>현지 특산품</h4>
+                    판포르테(Panforte) - 시에나의 전통 디저트
+                </div>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">Day 3 - 키안티 지역</div>
+            <div class="day-content">
+                <div class="schedule-item">
+                    <div class="time">10:00</div>
+                    <div class="activity">
+                        <strong>와이너리 투어</strong><br>
+                        키안티 클라시코 와인 시음 및 포도밭 견학
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">13:00</div>
+                    <div class="activity">
+                        <strong>농가 점심</strong><br>
+                        현지 올리브 오일과 치즈 시식
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">16:00</div>
+                    <div class="activity">
+                        <strong>그레베 인 키안티</strong> 마을 방문<br>
+                        와인 박물관 관람
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h4>와인 구매 팁</h4>
+                    DOCG 라벨이 있는 키안티 클라시코 와인 추천
+                </div>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">Day 4 - 산지미냐노 & 볼테라</div>
+            <div class="day-content">
+                <div class="schedule-item">
+                    <div class="time">09:30</div>
+                    <div class="activity">
+                        <strong>산지미냐노</strong> 탑 마을 관광<br>
+                        중세 마천루 견학
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">12:30</div>
+                    <div class="activity">
+                        <strong>젤라테리아 디 피아자</strong> 방문<br>
+                        세계 챔피언 젤라토 맛보기
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">15:00</div>
+                    <div class="activity">
+                        <strong>볼테라</strong> 에트루리아 유적 탐방<br>
+                        알라바스터 공방 방문
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h4>포토 스팟</h4>
+                    산지미냐노 토레 그로사 전망대에서 토스카나 전경 촬영
+                </div>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">Day 5 - 피사 & 루카</div>
+            <div class="day-content">
+                <div class="schedule-item">
+                    <div class="time">09:00</div>
+                    <div class="activity">
+                        <strong>피사의 사탑</strong> 방문<br>
+                        두오모, 세례당 관람
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">13:00</div>
+                    <div class="activity">
+                        <strong>루카</strong> 성벽 도시 탐방<br>
+                        자전거로 성벽 일주
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">16:00</div>
+                    <div class="activity">
+                        <strong>푸치니 생가</strong> 박물관 방문<br>
+                        오페라의 역사 탐방
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h4>루카 특산품</h4>
+                    부챗코 루케세(Buccellato lucchese) - 전통 빵 맛보기
+                </div>
+            </div>
+        </div>
+
+        <div class="tips">
+            <h3>여행 팁</h3>
+            <ul>
+                <li>주요 미술관은 사전 예약 필수</li>
+                <li>와이너리 방문은 최소 1주일 전 예약 권장</li>
+                <li>기차로 도시간 이동이 편리 (트레니탈리아 이용)</li>
+                <li>8월은 휴가 시즌으로 혼잡, 봄/가을 방문 추천</li>
+                <li>식당에서 코페르토(좌석료) 청구는 일반적</li>
+                <li>주요 성당 방문 시 복장 규정 준수 (어깨/무릎 아래 복장)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
